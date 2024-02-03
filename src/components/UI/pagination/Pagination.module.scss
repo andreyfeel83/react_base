@@ -1,0 +1,27 @@
+.pageButton {
+    min-width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 20px 4px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pageActive {
+    font-weight: bolder;
+    font-size: 20px;
+    min-width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 20px 4px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span:first-child {
+    margin-left: 537px;
+}
