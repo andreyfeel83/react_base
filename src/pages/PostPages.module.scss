@@ -2,6 +2,15 @@
     padding: 30px;
     min-height: 1080px;
     background-color: rgb(217, 235, 235);
+    position: relative;
+
+    .mainPage{
+        font-size: 24px;
+        font-weight: bold;
+        position: absolute;
+        left: 1740px;
+        top: 34px
+    }
 
     .comments{
         display: inline-block;
@@ -13,7 +22,7 @@
         &:hover{
             scale:1.1;
             transform: translateX(70px);
-            transition: 500ms ease-in ; 
+            transition: 500ms ease-in 100ms; 
         }
     }
 }
