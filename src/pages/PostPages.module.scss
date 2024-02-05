@@ -1,0 +1,19 @@
+.wrapper{
+    padding: 30px;
+    min-height: 1080px;
+    background-color: rgb(217, 235, 235);
+
+    .comments{
+        display: inline-block;
+        margin-top: 20px;
+        border: teal 2px solid;
+        padding: 8px;
+        border-radius: 5px;
+
+        &:hover{
+            scale:1.1;
+            transform: translateX(70px);
+            transition: 500ms ease-in ; 
+        }
+    }
+}
