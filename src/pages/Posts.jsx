@@ -48,7 +48,6 @@ function Posts() {
     <div className="App">
       <MyButton onClick={fetchPosts}>Get Posts</MyButton>
       <MyButton onClick={() => setModalIsVisible(true)}>Create post</MyButton>
-      <Link to={'about'} className='link-about' title='About this progect'>About</Link>
       <MyModal visible={modalIsVisible} setVisible={setModalIsVisible}>
         <PostForm create={createPost} />
       </MyModal>

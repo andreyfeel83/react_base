@@ -29,7 +29,6 @@ const PostPage = () => {
   return (
     <div className={styles.wrapper}>
       <h1>PostPage {params.id}</h1>
-      <Link to={'/'} className={styles.mainPage} title="Main page">Main page</Link>
       {isLoading ? (
         <h1>Loading...</h1>
       ) : (
